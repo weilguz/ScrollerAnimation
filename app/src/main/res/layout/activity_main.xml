@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abc.com.scrolleronanimation.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <LinearLayout
+        android:id="@+id/ll_button"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+        <RelativeLayout
+            android:id="@+id/ll_message"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_message"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="消息"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:alpha="0"
+                android:textColor="@color/colorb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_message_select"
+                android:layout_width="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="消息"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_find"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_find"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="发现"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="@color/colorb"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/tv_find_select"
+                android:layout_width="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="发现"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:alpha="0"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_ff"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_ff"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="朋友圈"
+                android:textSize="14sp"
+                android:textColor="@color/colorb"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_ff_select"
+                android:layout_width="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="朋友圈"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:alpha="0"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ll_me"
+            android:orientation="vertical"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tv_me"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="我的"
+                android:textSize="14sp"
+                android:textColor="@color/colorb"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+
+            <TextView
+                android:id="@+id/tv_me_select"
+                android:layout_width="match_parent"
+                android:drawableTop="@mipmap/ic_launcher"
+                android:text="我的"
+                android:textColor="@color/colorAccent"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:alpha="0"
+                android:layout_height="match_parent"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
