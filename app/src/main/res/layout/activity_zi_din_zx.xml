@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_zi_din_zx"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="abc.com.scrolleronanimation.zxing.ZiDinZxActivity">
+
+    <com.journeyapps.barcodescanner.DecoratedBarcodeView
+        android:id="@+id/dbv_zixin"
+        android:layout_margin="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp">
+
+    </com.journeyapps.barcodescanner.DecoratedBarcodeView>
+
+    <TextView
+        android:text="自定义的zixing扫描界面"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

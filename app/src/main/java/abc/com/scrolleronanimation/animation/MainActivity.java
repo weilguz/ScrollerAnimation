@@ -1,4 +1,4 @@
-package abc.com.scrolleronanimation;
+package abc.com.scrolleronanimation.animation;
 
 import android.graphics.Color;
 import android.os.Bundle;
@@ -12,6 +12,8 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import abc.com.scrolleronanimation.R;
 
 /**
  * 仿微信首页 滑动viewPager时底部的button效果
@@ -165,7 +167,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             @Override
             public void onPageScrollStateChanged(int state) {
-                
+
             }
         });
     }
